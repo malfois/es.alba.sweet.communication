@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Communication
+Bundle-SymbolicName: es.alba.sweet.communication
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: es.alba.sweet.communication
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: es.alba.sweet.base;bundle-version="1.0.0",
+ com.fasterxml.jackson.core.jackson-databind;bundle-version="2.10.3",
+ com.fasterxml.jackson.core.jackson-core;bundle-version="2.10.3"
+Export-Package: es.alba.sweet.communication,
+ es.alba.sweet.communication.command
+Import-Package: com.fasterxml.jackson.annotation
